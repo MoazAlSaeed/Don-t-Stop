@@ -1,0 +1,76 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &1187695370033173772
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 401419490802132577}
+  - component: {fileID: 2868624752380713603}
+  m_Layer: 0
+  m_Name: weaponsManager
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &401419490802132577
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1187695370033173772}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 6.1867943, y: 1.0501082, z: -9.894951}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &2868624752380713603
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1187695370033173772}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 836bd4b3a75d3f14c91f4103f5411bcf, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  ThrowKnife:
+    weaponName: Throw Knife
+    weaponType: Knife
+    weaponId: '#KNF01'
+    damage: 2
+    reloadTime: 0.8
+  BabyShot:
+    weaponName: Baby Shot
+    weaponType: Pistol
+    weaponId: '#PTL01'
+    damage: 1
+    reloadTime: 0.2
+  M12:
+    weaponName: M12
+    weaponType: Rifle
+    weaponId: '#RIF01'
+    damage: 4
+    reloadTime: 0.3
+  SharkGun:
+    weaponName: Shark Gun
+    weaponType: Shotgun
+    weaponId: '#GUN01'
+    damage: 10
+    reloadTime: 2
+  AreaBomb:
+    weaponName: Area Bomb
+    weaponType: Bomb
+    weaponId: '#BMB01'
+    damage: 20
+    reloadTime: 5

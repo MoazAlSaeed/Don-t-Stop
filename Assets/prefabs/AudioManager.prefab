@@ -1,0 +1,95 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &5427838797845729191
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 5427838797845729185}
+  - component: {fileID: 5427838797845729184}
+  m_Layer: 0
+  m_Name: AudioManager
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &5427838797845729185
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5427838797845729191}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 21.670128, y: -0.2573168, z: -0.34082875}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &5427838797845729184
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5427838797845729191}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 2619db2ca33991145b2a04e2fad0a4dc, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  sounds:
+  - Name: Squishing
+    clip: {fileID: 8300000, guid: 9b07368b1eb1ce54a8159bc0850ba7e5, type: 3}
+    volume: 0.613
+    pitch: 1
+    source: {fileID: 0}
+    loop: 0
+  - Name: playerHurt
+    clip: {fileID: 8300000, guid: d6a58c01a7c226043b76ff5aaca043ef, type: 3}
+    volume: 0.854
+    pitch: 1
+    source: {fileID: 0}
+    loop: 0
+  - Name: playerDying
+    clip: {fileID: 8300000, guid: 27a792e376f2ef043a6824efcf4e8195, type: 3}
+    volume: 0.168
+    pitch: 1
+    source: {fileID: 0}
+    loop: 0
+  - Name: Theme
+    clip: {fileID: 8300000, guid: f045db15d27102c4287353c0563ba75c, type: 3}
+    volume: 0.168
+    pitch: 1
+    source: {fileID: 0}
+    loop: 1
+  - Name: Breaking
+    clip: {fileID: 8300000, guid: 9b07368b1eb1ce54a8159bc0850ba7e5, type: 3}
+    volume: 0.168
+    pitch: 1
+    source: {fileID: 0}
+    loop: 0
+  - Name: Bouncing
+    clip: {fileID: 8300000, guid: 948e44db81afa14468a1b9d93ace3efb, type: 3}
+    volume: 0.168
+    pitch: 1
+    source: {fileID: 0}
+    loop: 0
+  - Name: playerJump
+    clip: {fileID: 8300000, guid: 7f4113fa75c54a842881728f7c1b66be, type: 3}
+    volume: 0.168
+    pitch: 1
+    source: {fileID: 0}
+    loop: 0
+  - Name: victoryCoin
+    clip: {fileID: 8300000, guid: 4949fa5a299061048bccb8989176a770, type: 3}
+    volume: 0.702
+    pitch: 1
+    source: {fileID: 0}
+    loop: 0
