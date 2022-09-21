@@ -1,0 +1,18 @@
+fileFormatVersion: 2
+guid: a7fad4104af4cfd49a26cd3f3bca382c
+MonoImporter:
+  externalObjects: {}
+  serializedVersion: 2
+  defaultReferences:
+  - body: {instanceID: 0}
+  - despawning: {instanceID: 0}
+  - playerBlood: {fileID: 3350214650814066314, guid: 6d7848986b824f745b183aa6d20622d9, type: 3}
+  - healingParticles: {fileID: 8638663628654549333, guid: 0008d285e1fb6ed4eb2ab89fab2d0ca3, type: 3}
+  - healthBar: {instanceID: 0}
+  - render: {instanceID: 0}
+  - playerColor: {instanceID: 0}
+  executionOrder: 0
+  icon: {instanceID: 0}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
